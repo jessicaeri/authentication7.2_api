@@ -8,4 +8,8 @@ Rails.application.routes.draw do
       # or resources :posts, etc.
     end
   end
+  #trivia question route
+  get '/trivia', to: 'trivia_questions#show'
+
+  get '/news', to: 'news#fetch_news' 
 end

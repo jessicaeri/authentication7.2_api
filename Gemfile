@@ -51,6 +51,10 @@ group :development, :test do
   gem 'pundit' # to help setup roles
 
   gem 'faker'
+
+  gem 'json'
+  gem 'httparty'
+  gem 'dotenv-rails'
 end
 
 
