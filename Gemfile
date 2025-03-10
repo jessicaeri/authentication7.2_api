@@ -44,6 +44,13 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  gem 'bcrypt', '~> 3.1.7' # For hashing passwords securely
+  gem 'jwt', '~> 2.2'      # For generating JSON Web Tokens
+
+  gem 'pundit' # to help setup roles
+
+  gem 'faker'
 end
 
 
